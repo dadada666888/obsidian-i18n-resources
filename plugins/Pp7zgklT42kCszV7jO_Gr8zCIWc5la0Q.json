@@ -1,0 +1,348 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "cmdr",
+        "version": "1.0.0",
+        "title": "Commander",
+        "description": "Commander Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.5.12",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Commander",
+                    "target": "指挥官"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "按钮"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "style",
+                    "target": "样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "canvas",
+                    "target": "画布"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error: dictionary locale not found",
+                    "target": "错误：未找到词典区域设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[cmdr] menu hider listener failed:",
+                    "target": "[cmdr] 菜单隐藏器监听器失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[cmdr] menu hider failed:",
+                    "target": "[cmdr] 菜单隐藏器失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Commander: could not persist #211 settings cleanup",
+                    "target": "指挥官：无法持久化 #211 设置清理"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Commander: could not persist spacing migration",
+                    "target": "指挥官：无法持久化间距迁移"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "No icon",
+                    "target": "无图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use a column based layout instead of the default row. This makes it easier to arrange the commands.",
+                    "target": "使用基于列布局而非默认行布局。这样可以更轻松地排列命令。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the height of each button inside the mobile toolbar (in px).",
+                    "target": "更改移动工具栏中每个按钮的高度（以像素为单位）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Change the width of each button inside the mobile toolbar (in px).",
+                    "target": "更改移动工具栏中每个按钮的宽度（以像素为单位）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Column layout",
+                    "target": "列布局"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Button height",
+                    "target": "按钮高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Button width",
+                    "target": "按钮宽度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Macro builder",
+                    "target": "宏构建器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Reset to default - requires a restart",
+                    "target": "重置为默认值 - 需要重启"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "🎊 Could not load worker",
+                    "target": "🎊 无法加载工作线程"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "If the default icon doesn't appear, you might have to restart Obsidian.",
+                    "target": "如果默认图标未出现，您可能需要重启 Obsidian。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Edit Macro",
+                    "target": "编辑宏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cmdr clickable-icon",
+                    "target": "cmdr 可点击图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cmdr status-bar-item cmdr-adder",
+                    "target": "cmdr 状态栏项 cmdr-添加器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "cmdr status-bar-item clickable-icon",
+                    "target": "cmdr 状态栏项 可点击图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Set how many rows the mobile toolbar should have. Set this to 0 to remove the toolbar.",
+                    "target": "设置移动工具栏应有多少行。将此设置为 0 以移除工具栏。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Offset the toolbar from the bottom of the screen. This is useful if the toolbar is partially obscured by other UI elements.",
+                    "target": "将工具栏从屏幕底部偏移。如果工具栏被其他 UI 元素部分遮挡，此功能非常有用。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "desc",
+                    "source": "Some themes need extra spacing in the toolbar. If your toolbar doesn't wrap properly, try increasing this value.",
+                    "target": "某些主题需要在工具栏中添加额外间距。如果您的工具栏无法正确换行，请尝试增加此值。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Core Plugin",
+                    "target": "核心插件"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Delay in milliseconds",
+                    "target": "延迟（毫秒）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Show the \"Add Command\" Button in every Menu.",
+                    "target": "在每个菜单中显示“添加命令”按钮。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toolbar row count",
+                    "target": "工具栏行数"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Bottom offset",
+                    "target": "底部偏移"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Toolbar extra spacing",
+                    "target": "工具栏额外间距"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delay",
+                    "target": "延迟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Text Toolbar",
+                    "target": "文本工具栏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Macros",
+                    "target": "宏"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Macro Name",
+                    "target": "宏名称"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Custom icons",
+                    "target": "自定义图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced settings",
+                    "target": "高级设置"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"Error: dictionary locale not found\",St.moment.locale()),Et&&Et[o]||Mt[o]}var ae=class extends Je.FuzzySuggestModal{constructor(e){super(e.app),this.plugin=e,this.commands=Object.values(e.app.commands.commands),this.setPlaceholder(u(\"Choose a Command to add\")",
+                    "target": "error(\"Error: dictionary locale not found\",St.moment.locale()),Et&&Et[o]||Mt[o]}var ae=class extends Je.FuzzySuggestModal{constructor(e){super(e.app),this.plugin=e,this.commands=Object.values(e.app.commands.commands),this.setPlaceholder(u(\"Choose a Command to add\")"
+                },
+                {
+                    "source": "setName(\"Column layout\")",
+                    "target": "setName(\"Column layout\")"
+                },
+                {
+                    "source": "setDesc(\"Use a column based layout instead of the default row. This makes it easier to arrange the commands.\")",
+                    "target": "setDesc(\"Use a column based layout instead of the default row. This makes it easier to arrange the commands.\")"
+                },
+                {
+                    "source": "setDesc(`ID: ${i.id}`)",
+                    "target": "setDesc(`ID: ${i.id}`)"
+                },
+                {
+                    "source": "setButtonText(\"No icon\")",
+                    "target": "setButtonText(\"No icon\")"
+                },
+                {
+                    "source": "setTooltip(\"Reset to default - requires a restart\")",
+                    "target": "setTooltip(\"Reset to default - requires a restart\")"
+                },
+                {
+                    "source": "Notice(\"If the default icon doesn't appear, you might have to restart Obsidian.\")",
+                    "target": "Notice(\"If the default icon doesn't appear, you might have to restart Obsidian.\")"
+                },
+                {
+                    "source": "setName(\"Button height\")",
+                    "target": "setName(\"Button height\")"
+                },
+                {
+                    "source": "setDesc(\"Change the height of each button inside the mobile toolbar (in px).\")",
+                    "target": "setDesc(\"Change the height of each button inside the mobile toolbar (in px).\")"
+                },
+                {
+                    "source": "setName(\"Button width\")",
+                    "target": "setName(\"Button width\")"
+                },
+                {
+                    "source": "setDesc(\"Change the width of each button inside the mobile toolbar (in px).\")",
+                    "target": "setDesc(\"Change the width of each button inside the mobile toolbar (in px).\")"
+                },
+                {
+                    "source": "setText(\"Macro builder\")",
+                    "target": "setText(\"Macro builder\")"
+                },
+                {
+                    "source": "error(\"Commander: could not persist spacing migration\",s)}}async saveSettings(){await this.saveData(this.settings)}listActiveToolbarCommands(){return this.app.vault.getConfig(\"mobileToolbarCommands\")",
+                    "target": "error(\"Commander: could not persist spacing migration\",s)}}async saveSettings(){await this.saveData(this.settings)}listActiveToolbarCommands(){return this.app.vault.getConfig(\"mobileToolbarCommands\")"
+                },
+                {
+                    "source": "name:\"Toolbar row count\"",
+                    "target": "name:\"Toolbar row count\""
+                },
+                {
+                    "source": "name:\"Bottom offset\"",
+                    "target": "name:\"Bottom offset\""
+                },
+                {
+                    "source": "text:\"Custom icons\"",
+                    "target": "text:\"Custom icons\""
+                },
+                {
+                    "source": "text:\"Advanced settings\"",
+                    "target": "text:\"Advanced settings\""
+                },
+                {
+                    "source": "name:\"Toolbar extra spacing\"",
+                    "target": "name:\"Toolbar extra spacing\""
+                },
+                {
+                    "source": "description:\"Core Plugin\"",
+                    "target": "description:\"Core Plugin\""
+                },
+                {
+                    "source": "description:\"Delay in milliseconds\"",
+                    "target": "description:\"Delay in milliseconds\""
+                },
+                {
+                    "source": "description:'Show the \"Add Command\" Button in every Menu.'",
+                    "target": "description:'Show the \"Add Command\" Button in every Menu.'"
+                },
+                {
+                    "source": "name:\"Text Toolbar\"",
+                    "target": "name:\"Text Toolbar\""
+                }
+            ]
+        }
+    }
+}

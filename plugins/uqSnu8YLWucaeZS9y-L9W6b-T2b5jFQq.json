@@ -1,0 +1,1834 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-markmind",
+        "version": "1.0.0",
+        "title": "Markmind",
+        "description": "Markmind Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.7.2",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<svg t=\"1775016353263\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"7616\" width=\"16\" height=\"16\"><path d=\"M914.56 463.78z m-110.53 0q0 30.34 14.63 55.81 14.63 25.46 40.63 40.09 26 14.63 54.72 14.63t55.26-14.63q26.55-14.63 40.63-40.09 14.09-25.47 14.09-55.27 0-29.8-14.09-55.27-14.08-25.46-40.63-40.63-26.55-15.17-55.26-15.17-28.72 0-54.72 15.17t-40.63 40.63q-14.63 25.47-14.63 54.73z m110.53 358.67z m-110.53 0q0 29.26 14.63 54.72 14.63 25.47 40.63 40.63 26 15.17 54.72 15.17t55.26-15.17q26.55-15.17 40.63-40.63 14.09-25.46 14.09-55.26 0-29.8-14.09-54.73-14.08-24.92-40.63-39.55Q942.72 713 914.01 713q-28.72 0-54.72 14.63t-40.63 39.55q-14.63 24.93-14.63 55.27z m-284.99 0z m-109.44 0q0 46.6 30.88 78.02 30.88 31.42 78.55 32.51 46.6-1.09 78.03-32.51 31.42-31.42 32.5-78.02-1.08-47.68-32.5-78.56-31.43-30.88-78.03-30.88-47.67 0-78.55 30.88-30.88 30.88-30.88 78.56z m109.44-358.67z m-109.44 0q0 47.68 30.88 78.56 30.88 30.88 78.55 31.97 46.6-1.09 78.03-31.97 31.42-30.88 32.5-78.56-1.08-46.59-32.5-77.47-31.43-30.88-78.03-33.06-47.67 2.17-78.55 33.06-30.88 30.88-30.88 77.47z m504.96-353.25z m-110.53 0q0 29.25 14.63 54.72t40.63 40.63q26 15.17 54.72 15.17t55.26-15.17q26.55-15.17 40.63-40.63 14.09-25.47 14.09-55.26 0-29.8-14.09-54.72-14.08-24.93-40.63-40.09Q942.72 0.01 914.01 0.01q-28.72 0-54.72 15.17t-40.63 40.09q-14.63 24.92-14.63 55.27zM109.44 822.45zM0 822.45q1.08 29.26 15.17 54.72 14.09 25.47 40.09 40.63 26 15.17 54.72 15.17t55.27-15.17q26.55-15.17 40.63-40.63 14.09-25.46 15.17-54.72-2.16-47.68-33.05-78.56-30.88-30.88-78.56-30.88-46.59 0-77.47 30.88Q1.09 774.77 0.01 822.45z\"  p-id=\"7617\"></path></svg>",
+                    "target": "<svg t=\"1775016353263\" class=\"icon\" viewBox=\"0 0 1024 1024\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" p-id=\"7616\" width=\"16\" height=\"16\"><path d=\"M914.56 463.78z m-110.53 0q0 30.34 14.63 55.81 14.63 25.46 40.63 40.09 26 14.63 54.72 14.63t55.26-14.63q26.55-14.63 40.63-40.09 14.09-25.47 14.09-55.27 0-29.8-14.09-55.27-14.08-25.46-40.63-40.63-26.55-15.17-55.26-15.17-28.72 0-54.72 15.17t-40.63 40.63q-14.63 25.47-14.63 54.73z m110.53 358.67z m-110.53 0q0 29.26 14.63 54.72 14.63 25.47 40.63 40.63 26 15.17 54.72 15.17t55.26-15.17q26.55-15.17 40.63-40.63 14.09-25.46 14.09-55.26 0-29.8-14.09-54.73-14.08-24.92-40.63-39.55Q942.72 713 914.01 713q-28.72 0-54.72 14.63t-40.63 39.55q-14.63 24.93-14.63 55.27z m-284.99 0z m-109.44 0q0 46.6 30.88 78.02 30.88 31.42 78.55 32.51 46.6-1.09 78.03-32.51 31.42-31.42 32.5-78.02-1.08-47.68-32.5-78.56-31.43-30.88-78.03-30.88-47.67 0-78.55 30.88-30.88 30.88-30.88 78.56z m109.44-358.67z m-109.44 0q0 47.68 30.88 78.56 30.88 30.88 78.55 31.97 46.6-1.09 78.03-31.97 31.42-30.88 32.5-78.56-1.08-46.59-32.5-77.47-31.43-30.88-78.03-33.06-47.67 2.17-78.55 33.06-30.88 30.88-30.88 77.47z m504.96-353.25z m-110.53 0q0 29.25 14.63 54.72t40.63 40.63q26 15.17 54.72 15.17t55.26-15.17q26.55-15.17 40.63-40.63 14.09-25.47 14.09-55.26 0-29.8-14.09-54.72-14.08-24.93-40.63-40.09Q942.72 0.01 914.01 0.01q-28.72 0-54.72 15.17t-40.63 40.09q-14.63 24.92-14.63 55.27zM109.44 822.45zM0 822.45q1.08 29.26 15.17 54.72 14.09 25.47 40.09 40.63 26 15.17 54.72 15.17t55.27-15.17q26.55-15.17 40.63-40.63 14.09-25.46 15.17-54.72-2.16-47.68-33.05-78.56-30.88-30.88-78.56-30.88-46.59 0-77.47 30.88Q1.09 774.77 0.01 822.45z\"  p-id=\"7617\"></path></svg>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "html",
+                    "target": "html"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "svg",
+                    "target": "svg"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "left",
+                    "target": "left"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "right",
+                    "target": "right"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "mind map",
+                    "target": "思维导图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "md",
+                    "target": "md"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "markdown",
+                    "target": "markdown"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "annos",
+                    "target": "annos"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Dark",
+                    "target": "深色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Light",
+                    "target": "浅色"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "rich",
+                    "target": "rich"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Rich",
+                    "target": "Rich"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "basic",
+                    "target": "basic"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Basic",
+                    "target": "Basic"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "tree",
+                    "target": "tree"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "fish",
+                    "target": "fish"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "baidu",
+                    "target": "baidu"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "workspace-leaf mod-active",
+                    "target": "workspace-leaf mod-active"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "workspace-split mod-vertical mod-root",
+                    "target": "workspace-split mod-vertical mod-root"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "workspace",
+                    "target": "workspace"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "img",
+                    "target": "img"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "video",
+                    "target": "video"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "source",
+                    "target": "source"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "audio",
+                    "target": "audio"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "html",
+                    "target": "html"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "script",
+                    "target": "script"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "body",
+                    "target": "body"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error inserting rule from remote css",
+                    "target": "从远程 CSS 插入规则时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading remote css",
+                    "target": "加载远程 CSS 时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error loading remote stylesheet",
+                    "target": "加载远程样式表时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error inlining remote css file",
+                    "target": "内联远程 CSS 文件时出错"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating outline board:",
+                    "target": "创建大纲面板时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Error creating mindmap board:",
+                    "target": "创建思维导图面板时出错："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: black|white|#ccc",
+                    "target": "示例：black|white|#ccc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: 16",
+                    "target": "示例：16"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: red,oragne,blue ...",
+                    "target": "示例：red,oragne,blue ..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "assets",
+                    "target": "assets"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: red,orange,#ccc",
+                    "target": "示例：red,orange,#ccc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: 0",
+                    "target": "示例：0"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "cache",
+                    "target": "cache"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "asset",
+                    "target": "asset"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Example: 5",
+                    "target": "示例：5"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "image error",
+                    "target": "图片错误"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Create New MindMap",
+                    "target": "创建新思维导图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Create New outline",
+                    "target": "创建新大纲"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Toggle show node image",
+                    "target": "切换显示节点图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Select all node",
+                    "target": "全选节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Close show node image",
+                    "target": "关闭显示节点图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Auto adapt screen",
+                    "target": "自动适应屏幕"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Set node resize box",
+                    "target": "设置节点调整框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "reset node size",
+                    "target": "重置节点大小"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Enter to read mode",
+                    "target": "进入阅读模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Enter demonstration mode",
+                    "target": "进入演示模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Auto scale demonstration page",
+                    "target": "自动缩放演示页面"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Close demonstration mode",
+                    "target": "关闭演示模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Generate mind maps by chatGTP",
+                    "target": "通过 chatGTP 生成思维导图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Generate mind maps by Q&A of chatGTP ",
+                    "target": "通过 chatGTP 问答生成思维导图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Toggle to markdown or mindmap",
+                    "target": "切换 Markdown 或思维导图模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Change basic to table mode",
+                    "target": "将基础模式切换为表格模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Change basic to outline mode",
+                    "target": "将基础模式切换为大纲模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Copy Node",
+                    "target": "复制节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Paste Node",
+                    "target": "粘贴节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Cover Node",
+                    "target": "覆盖节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Cancel Cover Node",
+                    "target": "取消覆盖节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Toggle search box",
+                    "target": "切换搜索框"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Reset to default theme",
+                    "target": "重置为默认主题"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Change layout to mindmap",
+                    "target": "将布局改为思维导图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Change layout to right",
+                    "target": "将布局改为右侧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Change layout to left",
+                    "target": "将布局改为左侧"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Change layout to tree",
+                    "target": "将布局改为树状"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Change layout to fishRight",
+                    "target": "将布局改为右侧鱼骨图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Change layout to fishLeft",
+                    "target": "将布局改为左侧鱼骨图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Get vault path",
+                    "target": "获取仓库路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Change basic mode to rich mode",
+                    "target": "将基础模式切换为丰富模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Change rich mode to basic mode",
+                    "target": "将丰富模式切换为基础模式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Export to html",
+                    "target": "导出为 HTML"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Export mindmap to pdf",
+                    "target": "将思维导图导出为 PDF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Export mindmap to pdf (old version)",
+                    "target": "将思维导图导出为 PDF（旧版）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Export mindmap to xmind zen",
+                    "target": "将思维导图导出为 XMind Zen"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Use new version of pdfjs",
+                    "target": "使用新版本的pdfjs"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Use old version of pdfjs",
+                    "target": "使用旧版本的pdfjs"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Collapse to root",
+                    "target": "折叠到根节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Expand to node level 1",
+                    "target": "展开到节点层级1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Expand to node level 2",
+                    "target": "展开到节点层级2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Expand to node level 3",
+                    "target": "展开到节点层级3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Expand to node level 4",
+                    "target": "展开到节点层级4"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Expand to node level 5",
+                    "target": "展开到节点层级5"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Expand to node level all",
+                    "target": "展开到所有节点层级"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Copy node link",
+                    "target": "复制节点链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Copy node link only",
+                    "target": "仅复制节点链接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Add child node",
+                    "target": "添加子节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Add brother node",
+                    "target": "添加兄弟节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Add Parent Node",
+                    "target": "添加父节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Edit node",
+                    "target": "编辑节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Cancel edit node",
+                    "target": "取消编辑节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Delete node",
+                    "target": "删除节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Undo",
+                    "target": "撤销"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "Redo",
+                    "target": "重做"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "id",
+                    "source": "File recovery",
+                    "target": "文件恢复"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Microsoft YaHei",
+                    "target": "微软雅黑"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Song Ti",
+                    "target": "宋体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "SimKai",
+                    "target": "楷体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Heiti",
+                    "target": "黑体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "SimLi",
+                    "target": "隶书"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Arial",
+                    "target": "Arial"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Impact",
+                    "target": "Impact"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Times new roman",
+                    "target": "Times new roman"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Serif",
+                    "target": "Serif"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "transition",
+                    "target": "transition"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "多彩标记图标",
+                    "target": "多彩标记图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "星期",
+                    "target": "星期"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "头像",
+                    "target": "头像"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "五角星",
+                    "target": "五角星"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "旗帜",
+                    "target": "旗帜"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "天气",
+                    "target": "天气"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "优先级图标",
+                    "target": "优先级图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "进度图标",
+                    "target": "进度图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "表情图标",
+                    "target": "表情图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "标记图标",
+                    "target": "标记图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "free",
+                    "target": "free"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "markdown",
+                    "target": "markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "orange",
+                    "target": "orange"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "dark",
+                    "target": "dark"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "light",
+                    "target": "light"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "card",
+                    "target": "card"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "black",
+                    "target": "black"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "warm",
+                    "target": "warm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "white",
+                    "target": "white"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "cold",
+                    "target": "cold"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "normal",
+                    "target": "normal"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "relax",
+                    "target": "relax"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Icon",
+                    "target": "Icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "FloatMenu",
+                    "target": "FloatMenu"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Empty",
+                    "target": "Empty"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ShapeList",
+                    "target": "ShapeList"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "show",
+                    "target": "show"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ColorPicker",
+                    "target": "ColorPicker"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "model",
+                    "target": "model"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BorderStyle",
+                    "target": "BorderStyle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NodeStyle",
+                    "target": "NodeStyle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "BaseStyle",
+                    "target": "BaseStyle"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "blue",
+                    "target": "blue"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "red",
+                    "target": "red"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "green",
+                    "target": "green"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "default",
+                    "target": "default"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Theme",
+                    "target": "Theme"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Structure",
+                    "target": "Structure"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "FloatSide",
+                    "target": "FloatSide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "AssistPanel",
+                    "target": "AssistPanel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Note",
+                    "target": "Note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "NodeMenu",
+                    "target": "NodeMenu"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "App",
+                    "target": "App"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "pdf",
+                    "target": "pdf"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Basic root",
+                    "target": "基本根节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Root",
+                    "target": "根节点"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "callout",
+                    "target": "callout"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "经典",
+                    "target": "经典"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "黑色",
+                    "target": "黑色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "蓝色",
+                    "target": "蓝色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "彩虹",
+                    "target": "彩虹"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "绿色",
+                    "target": "绿色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "橘色",
+                    "target": "橘色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "red",
+                    "target": "red"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "白色",
+                    "target": "白色"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "111111<img class=\"index-logo-src\" src=\"//www.baidu.com/img/flexible/logo/pc/result.png\" alt=\"到百度首页\" title=\"到百度首页\">",
+                    "target": "111111<img class=\"index-logo-src\" src=\"//www.baidu.com/img/flexible/logo/pc/result.png\" alt=\"到百度首页\" title=\"到百度首页\">"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "归纳",
+                    "target": "归纳"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Group Name",
+                    "target": "组名"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "文字",
+                    "target": "文字"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Text",
+                    "target": "文本"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Map 1",
+                    "target": "地图 1"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Solid line",
+                    "target": "实线"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Dash line",
+                    "target": "虚线"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(`${T(\"The probation period has ended\")}`)",
+                    "target": "Notice(`${T(\"The probation period has ended\")}`)"
+                },
+                {
+                    "source": "Notice(`${T(\"Active success\")}`)",
+                    "target": "Notice(`${T(\"Active success\")}`)"
+                },
+                {
+                    "source": "Notice(\"image error\")",
+                    "target": "Notice(\"image error\")"
+                },
+                {
+                    "source": "Notice(`${T(\"Active error\")}`)",
+                    "target": "Notice(`${T(\"Active error\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Copy full text translations\")}`)",
+                    "target": "setTitle(`${T(\"Copy full text translations\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Open as markdown\")}`)",
+                    "target": "setTitle(`${T(\"Open as markdown\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Full text translate\")}`)",
+                    "target": "setTitle(`${T(\"Full text translate\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Export annotate pdf\")}`)",
+                    "target": "setTitle(`${T(\"Export annotate pdf\")}`)"
+                },
+                {
+                    "source": "Notice(`${T(\"Export annotate pdf tip\")}`)",
+                    "target": "Notice(`${T(\"Export annotate pdf tip\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Export pdf annotations\")}`)",
+                    "target": "setTitle(`${T(\"Export pdf annotations\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Get pdf annotations\")}`)",
+                    "target": "setTitle(`${T(\"Get pdf annotations\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Open as table\")}`)",
+                    "target": "setTitle(`${T(\"Open as table\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Create hand drawn mindmap\")}`)",
+                    "target": "setTitle(`${T(\"Create hand drawn mindmap\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Open as mindmap board\")}`)",
+                    "target": "setTitle(`${T(\"Open as mindmap board\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Toggle search box\")}`)",
+                    "target": "setTitle(`${T(\"Toggle search box\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Set mindmap to center\")}`)",
+                    "target": "setTitle(`${T(\"Set mindmap to center\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Copy as markdown\")}`)",
+                    "target": "setTitle(`${T(\"Copy as markdown\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Copy node text\")}`)",
+                    "target": "setTitle(`${T(\"Copy node text\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Copy node link\")}`)",
+                    "target": "setTitle(`${T(\"Copy node link\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Copy node id\")}`)",
+                    "target": "setTitle(`${T(\"Copy node id\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Mindmap Render Type\")}`)",
+                    "target": "setName(`${T(\"Mindmap Render Type\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Mindmap Render Type desc\")}`)",
+                    "target": "setDesc(`${T(\"Mindmap Render Type desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Canvas size\")}`)",
+                    "target": "setName(`${T(\"Canvas size\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Canvas size desc\")}`)",
+                    "target": "setDesc(`${T(\"Canvas size desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Canvas background\")}`)",
+                    "target": "setName(`${T(\"Canvas background\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Canvas background desc\")}`)",
+                    "target": "setDesc(`${T(\"Canvas background desc\")}`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: black|white|#ccc\")",
+                    "target": "setPlaceholder(\"Example: black|white|#ccc\")"
+                },
+                {
+                    "source": "setName(`${T(\"Max level of node to markdown head\")}`)",
+                    "target": "setName(`${T(\"Max level of node to markdown head\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Max level of node to markdown head desc\")}`)",
+                    "target": "setDesc(`${T(\"Max level of node to markdown head desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Font size\")}`)",
+                    "target": "setName(`${T(\"Font size\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Font size desc\")}`)",
+                    "target": "setDesc(`${T(\"Font size desc\")}`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: 16\")",
+                    "target": "setPlaceholder(\"Example: 16\")"
+                },
+                {
+                    "source": "setName(`${T(\"Mind map layout direct\")}`)",
+                    "target": "setName(`${T(\"Mind map layout direct\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Mind map layout direct desc\")}`)",
+                    "target": "setDesc(`${T(\"Mind map layout direct desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Show node setup board\")}`)",
+                    "target": "setName(`${T(\"Show node setup board\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Show node setup board desc\")}`)",
+                    "target": "setDesc(`${T(\"Show node setup board desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Allow dblclick to create free node\")}`)",
+                    "target": "setName(`${T(\"Allow dblclick to create free node\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Allow dblclick to create free node desc\")}`)",
+                    "target": "setDesc(`${T(\"Allow dblclick to create free node desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Allow lang touch to create free node\")}`)",
+                    "target": "setName(`${T(\"Allow lang touch to create free node\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Allow lang touch to create free node desc\")}`)",
+                    "target": "setDesc(`${T(\"Allow lang touch to create free node desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Stroke Array\")}`)",
+                    "target": "setName(`${T(\"Stroke Array\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Stroke Array Desc\")}`)",
+                    "target": "setDesc(`${T(\"Stroke Array Desc\")}`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: red,oragne,blue ...\")",
+                    "target": "setPlaceholder(\"Example: red,oragne,blue ...\")"
+                },
+                {
+                    "source": "setName(`${T(\"Support PDF annotation\")}`)",
+                    "target": "setName(`${T(\"Support PDF annotation\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Support PDF annotation desc\")}`)",
+                    "target": "setDesc(`${T(\"Support PDF annotation desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Open Protocol\")}`)",
+                    "target": "setName(`${T(\"Open Protocol\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Open Protocol Desc\")}`)",
+                    "target": "setDesc(`${T(\"Open Protocol Desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Annotation save type\")}`)",
+                    "target": "setName(`${T(\"Annotation save type\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Annotation save type desc\")}`)",
+                    "target": "setDesc(`${T(\"Annotation save type desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Active Code\")}`)",
+                    "target": "setName(`${T(\"Active Code\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Active Code Desc\")}`)",
+                    "target": "setDesc(`${T(\"Active Code Desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Mobile Active Code\")}`)",
+                    "target": "setName(`${T(\"Mobile Active Code\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Mobile Active Code Desc\")}`)",
+                    "target": "setDesc(`${T(\"Mobile Active Code Desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"PDF Viewer Theme\")}`)",
+                    "target": "setName(`${T(\"PDF Viewer Theme\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"PDF Viewer Theme desc\")}`)",
+                    "target": "setDesc(`${T(\"PDF Viewer Theme desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Mindmap mode\")}`)",
+                    "target": "setName(`${T(\"Mindmap mode\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Mindmap mode desc\")}`)",
+                    "target": "setDesc(`${T(\"Mindmap mode desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Layout for basic mode\")}`)",
+                    "target": "setName(`${T(\"Layout for basic mode\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Layout for basic mode desc\")}`)",
+                    "target": "setDesc(`${T(\"Layout for basic mode desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Pdf screen short\")}`)",
+                    "target": "setName(`${T(\"Pdf screen short\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Pdf screen short desc\")}`)",
+                    "target": "setDesc(`${T(\"Pdf screen short desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Remove annotate space\")}`)",
+                    "target": "setName(`${T(\"Remove annotate space\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Remove annotate space desc\")}`)",
+                    "target": "setDesc(`${T(\"Remove annotate space desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Smooth movement\")}`)",
+                    "target": "setName(`${T(\"Smooth movement\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Smooth movement desc\")}`)",
+                    "target": "setDesc(`${T(\"Smooth movement desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Support code block\")}`)",
+                    "target": "setName(`${T(\"Support code block\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Support code block desc\")}`)",
+                    "target": "setDesc(`${T(\"Support code block desc\")}`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: red,orange,#ccc\")",
+                    "target": "setPlaceholder(\"Example: red,orange,#ccc\")"
+                },
+                {
+                    "source": "setName(`${T(\"Format of pdf highlight\")}`)",
+                    "target": "setName(`${T(\"Format of pdf highlight\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Format of pdf highlight desc\")}`)",
+                    "target": "setDesc(`${T(\"Format of pdf highlight desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Fine tune height of annotate\")}`)",
+                    "target": "setName(`${T(\"Fine tune height of annotate\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Fine tune height of annotate desc\")}`)",
+                    "target": "setDesc(`${T(\"Fine tune height of annotate desc\")}`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: 0\")",
+                    "target": "setPlaceholder(\"Example: 0\")"
+                },
+                {
+                    "source": "setDesc(`${T(\"Fine tune height of annotate desc one\")}`)",
+                    "target": "setDesc(`${T(\"Fine tune height of annotate desc one\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Decode URI pdf link\")}`)",
+                    "target": "setName(`${T(\"Decode URI pdf link\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Decode URI pdf link desc\")}`)",
+                    "target": "setDesc(`${T(\"Decode URI pdf link desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Auto create node when annotate\")}`)",
+                    "target": "setName(`${T(\"Auto create node when annotate\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Auto create node when annotate desc\")}`)",
+                    "target": "setDesc(`${T(\"Auto create node when annotate desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Use custom short cut\")}`)",
+                    "target": "setName(`${T(\"Use custom short cut\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Use custom short cut desc\")}`)",
+                    "target": "setDesc(`${T(\"Use custom short cut desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"PDF cache folder\")}`)",
+                    "target": "setName(`${T(\"PDF cache folder\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"PDF cache folder desc\")}`)",
+                    "target": "setDesc(`${T(\"PDF cache folder desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Folder of paste image\")}`)",
+                    "target": "setName(`${T(\"Folder of paste image\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Folder of paste image desc\")}`)",
+                    "target": "setDesc(`${T(\"Folder of paste image desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Only copy annotate link\")}`)",
+                    "target": "setName(`${T(\"Only copy annotate link\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Only copy annotate link desc\")}`)",
+                    "target": "setDesc(`${T(\"Only copy annotate link desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Auto set node to center when tab node of mindmap\")}`)",
+                    "target": "setName(`${T(\"Auto set node to center when tab node of mindmap\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Auto set node to center when tab node of mindmap desc\")}`)",
+                    "target": "setDesc(`${T(\"Auto set node to center when tab node of mindmap desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Auto open search box\")}`)",
+                    "target": "setName(`${T(\"Auto open search box\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Auto open search box desc\")}`)",
+                    "target": "setDesc(`${T(\"Auto open search box desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Add collapse node mark\")}`)",
+                    "target": "setName(`${T(\"Add collapse node mark\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Add collapse node mark desc\")}`)",
+                    "target": "setDesc(`${T(\"Add collapse node mark desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Only use obsidian folder for pdfjs plugin\")}`)",
+                    "target": "setName(`${T(\"Only use obsidian folder for pdfjs plugin\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Only use obsidian folder for pdfjs plugin desc\")}`)",
+                    "target": "setDesc(`${T(\"Only use obsidian folder for pdfjs plugin desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"ChatGTP appkey\")}`)",
+                    "target": "setName(`${T(\"ChatGTP appkey\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"ChatGTP appkey desc\")}`)",
+                    "target": "setDesc(`${T(\"ChatGTP appkey desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"ChatGTP model\")}`)",
+                    "target": "setName(`${T(\"ChatGTP model\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"ChatGTP model desc\")}`)",
+                    "target": "setDesc(`${T(\"ChatGTP model desc\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"ProxyServer desc\")}`)",
+                    "target": "setDesc(`${T(\"ProxyServer desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Use custom ai\")}`)",
+                    "target": "setName(`${T(\"Use custom ai\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Use custom ai\")}`)",
+                    "target": "setDesc(`${T(\"Use custom ai\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"URL for custom ai\")}`)",
+                    "target": "setName(`${T(\"URL for custom ai\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"URL for custom ai\")}`)",
+                    "target": "setDesc(`${T(\"URL for custom ai\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Model for custom ai\")}`)",
+                    "target": "setName(`${T(\"Model for custom ai\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Model for custom ai\")}`)",
+                    "target": "setDesc(`${T(\"Model for custom ai\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Appkey for custom ai\")}`)",
+                    "target": "setName(`${T(\"Appkey for custom ai\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Appkey for custom ai\")}`)",
+                    "target": "setDesc(`${T(\"Appkey for custom ai\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Annotate template\")}`)",
+                    "target": "setName(`${T(\"Annotate template\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Annotate template desc\")}`)",
+                    "target": "setDesc(`${T(\"Annotate template desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Support translate\")}`)",
+                    "target": "setName(`${T(\"Support translate\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Support translate desc\")}`)",
+                    "target": "setDesc(`${T(\"Support translate desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Translation engine\")}`)",
+                    "target": "setName(`${T(\"Translation engine\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Translation engine\")}`)",
+                    "target": "setDesc(`${T(\"Translation engine\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Translate appid\")}`)",
+                    "target": "setName(`${T(\"Translate appid\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Translate appid desc\")}`)",
+                    "target": "setDesc(`${T(\"Translate appid desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Translate secret\")}`)",
+                    "target": "setName(`${T(\"Translate secret\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Translate secret desc\")}`)",
+                    "target": "setDesc(`${T(\"Translate secret desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Scale speed of mobile version\")}`)",
+                    "target": "setName(`${T(\"Scale speed of mobile version\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Scale speed of mobile version desc\")}`)",
+                    "target": "setDesc(`${T(\"Scale speed of mobile version desc\")}`)"
+                },
+                {
+                    "source": "setPlaceholder(\"Example: 5\")",
+                    "target": "setPlaceholder(\"Example: 5\")"
+                },
+                {
+                    "source": "setName(`${T(\"Use File recovery\")}`)",
+                    "target": "setName(`${T(\"Use File recovery\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Use File recovery desc\")}`)",
+                    "target": "setDesc(`${T(\"Use File recovery desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Use mobile mode\")}`)",
+                    "target": "setName(`${T(\"Use mobile mode\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Use mobile mode desc\")}`)",
+                    "target": "setDesc(`${T(\"Use mobile mode desc\")}`)"
+                },
+                {
+                    "source": "setName(`${T(\"Close enter key\")}`)",
+                    "target": "setName(`${T(\"Close enter key\")}`)"
+                },
+                {
+                    "source": "setDesc(`${T(\"Close enter key desc\")}`)",
+                    "target": "setDesc(`${T(\"Close enter key desc\")}`)"
+                },
+                {
+                    "source": "log(`${T(\"Enter read mode\")}`)",
+                    "target": "log(`${T(\"Enter read mode\")}`)"
+                },
+                {
+                    "source": "error(\"Error creating outline board:\",a)}}async newMindMap(e,t=\"\")",
+                    "target": "error(\"Error creating outline board:\",a)}}async newMindMap(e,t=\"\")"
+                },
+                {
+                    "source": "setTitle(`${T(\"New mindmap board\")}`)",
+                    "target": "setTitle(`${T(\"New mindmap board\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"New basic mindmap board\")}`)",
+                    "target": "setTitle(`${T(\"New basic mindmap board\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"New markdown mindmap board\")}`)",
+                    "target": "setTitle(`${T(\"New markdown mindmap board\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"New rich mindmap board\")}`)",
+                    "target": "setTitle(`${T(\"New rich mindmap board\")}`)"
+                },
+                {
+                    "source": "setTitle(`${T(\"Create Mindmap From md\")}`)",
+                    "target": "setTitle(`${T(\"Create Mindmap From md\")}`)"
+                },
+                {
+                    "source": "text:\"Basic root\"",
+                    "target": "text:\"Basic root\""
+                },
+                {
+                    "source": "text:\"Group Name\"",
+                    "target": "text:\"Group Name\""
+                },
+                {
+                    "source": "innerText=`${T(\"Open link\")}`",
+                    "target": "innerText=`${T(\"Open link\")}`"
+                },
+                {
+                    "source": "innerText=`${T(\"Edit node\")}`",
+                    "target": "innerText=`${T(\"Edit node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Create new mindmap\")}`",
+                    "target": "name:`${T(\"Create new mindmap\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Create new outline\")}`",
+                    "target": "name:`${T(\"Create new outline\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Show node image\")}`",
+                    "target": "name:`${T(\"Show node image\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Select all node\")}`",
+                    "target": "name:`${T(\"Select all node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Close node image\")}`",
+                    "target": "name:`${T(\"Close node image\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Auto adapt screen\")}`",
+                    "target": "name:`${T(\"Auto adapt screen\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Set node resize box\")}`",
+                    "target": "name:`${T(\"Set node resize box\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Reset node size\")}`",
+                    "target": "name:`${T(\"Reset node size\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Enter read mode\")}`",
+                    "target": "name:`${T(\"Enter read mode\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Enter demonstration mode\")}`",
+                    "target": "name:`${T(\"Enter demonstration mode\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Auto scale demonstration page\")}`",
+                    "target": "name:`${T(\"Auto scale demonstration page\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Exit demonstration mode\")}`",
+                    "target": "name:`${T(\"Exit demonstration mode\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Generate mind maps by chatGTP\")}`",
+                    "target": "name:`${T(\"Generate mind maps by chatGTP\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Generate mind maps by Q&A of chatGTP\")}`",
+                    "target": "name:`${T(\"Generate mind maps by Q&A of chatGTP\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Toggle mardkown/mindmap\")}`",
+                    "target": "name:`${T(\"Toggle mardkown/mindmap\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Change basic to table mode\")}`",
+                    "target": "name:`${T(\"Change basic to table mode\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Change basic to outline mode\")}`",
+                    "target": "name:`${T(\"Change basic to outline mode\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Copy node\")}`",
+                    "target": "name:`${T(\"Copy node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Paste node\")}`",
+                    "target": "name:`${T(\"Paste node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Cover node\")}`",
+                    "target": "name:`${T(\"Cover node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Cancel cover node\")}`",
+                    "target": "name:`${T(\"Cancel cover node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Toggle search box\")}`",
+                    "target": "name:`${T(\"Toggle search box\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Reset to default theme\")}`",
+                    "target": "name:`${T(\"Reset to default theme\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Change layout to mindmap\")}`",
+                    "target": "name:`${T(\"Change layout to mindmap\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Change layout to right\")}`",
+                    "target": "name:`${T(\"Change layout to right\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Change layout to left\")}`",
+                    "target": "name:`${T(\"Change layout to left\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Change layout to tree\")}`",
+                    "target": "name:`${T(\"Change layout to tree\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Change layout to fishRight\")}`",
+                    "target": "name:`${T(\"Change layout to fishRight\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Change layout to fishLeft\")}`",
+                    "target": "name:`${T(\"Change layout to fishLeft\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Get path of vault\")}`",
+                    "target": "name:`${T(\"Get path of vault\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Change basic mode to rich mode\")}`",
+                    "target": "name:`${T(\"Change basic mode to rich mode\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Change rich mode to basic mode\")}`",
+                    "target": "name:`${T(\"Change rich mode to basic mode\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Export to html\")}`",
+                    "target": "name:`${T(\"Export to html\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Export to pdf\")}`",
+                    "target": "name:`${T(\"Export to pdf\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Export to pdf (old version)\")}`",
+                    "target": "name:`${T(\"Export to pdf (old version)\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Export to xmind zen\")}`",
+                    "target": "name:`${T(\"Export to xmind zen\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Use new version of pdfjs\")}`",
+                    "target": "name:`${T(\"Use new version of pdfjs\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Use old version of pdfjs\")}`",
+                    "target": "name:`${T(\"Use old version of pdfjs\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Expand to first root level\")}`",
+                    "target": "name:`${T(\"Expand to first root level\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Expand to first node level\")}`",
+                    "target": "name:`${T(\"Expand to first node level\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Expand to second node level\")}`",
+                    "target": "name:`${T(\"Expand to second node level\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Expand to third node level\")}`",
+                    "target": "name:`${T(\"Expand to third node level\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Expand to fourth node level\")}`",
+                    "target": "name:`${T(\"Expand to fourth node level\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Expand to fifth node level\")}`",
+                    "target": "name:`${T(\"Expand to fifth node level\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Expand to all node level\")}`",
+                    "target": "name:`${T(\"Expand to all node level\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Copy node link\")}`",
+                    "target": "name:`${T(\"Copy node link\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Copy node link only\")}`",
+                    "target": "name:`${T(\"Copy node link only\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Add child node\")}`",
+                    "target": "name:`${T(\"Add child node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Add brother node\")}`",
+                    "target": "name:`${T(\"Add brother node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Add Parent Node\")}`",
+                    "target": "name:`${T(\"Add Parent Node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Edit node\")}`",
+                    "target": "name:`${T(\"Edit node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Cancel edit node\")}`",
+                    "target": "name:`${T(\"Cancel edit node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Delete node\")}`",
+                    "target": "name:`${T(\"Delete node\")}`"
+                },
+                {
+                    "source": "name:`${T(\"Toggle History\")}`",
+                    "target": "name:`${T(\"Toggle History\")}`"
+                }
+            ]
+        }
+    }
+}

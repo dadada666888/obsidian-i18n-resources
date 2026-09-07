@@ -1,0 +1,883 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-mindmap-nextgen",
+        "version": "1.0.0",
+        "title": "Mindmap NextGen",
+        "description": "Mindmap NextGen Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.16.0",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [],
+            "regex": [
+                {
+                    "source": "error(`This callbag source is already active, but '${method}' was invoked.`)",
+                    "target": "error(`This callbag source is already active, but '${method}' was invoked.`)"
+                },
+                {
+                    "source": "Notice(\"Image copied to clipboard\")",
+                    "target": "Notice(\"Image copied to clipboard\")"
+                },
+                {
+                    "source": "setTitle(`${toolbar.hidden ? translation/* strings */.P.menu.toolbar.show : translation/* strings */.P.menu.toolbar.hide} ${translation/* strings */.P.menu.toolbar.toolbar}`)",
+                    "target": "setTitle(`${toolbar.hidden ? translation/* strings */.P.menu.toolbar.show : translation/* strings */.P.menu.toolbar.hide} ${translation/* strings */.P.menu.toolbar.toolbar}`)"
+                },
+                {
+                    "source": "log(`Deprecated as of ${version}. ${message}`)",
+                    "target": "log(`Deprecated as of ${version}. ${message}`)"
+                },
+                {
+                    "source": "name = \"*\"",
+                    "target": "name = \"*\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "link: \":any-link:not(:visited)\"",
+                    "target": "link: \":any-link:not(:visited)\""
+                },
+                {
+                    "source": "name: \"scope\"",
+                    "target": "name: \"scope\""
+                },
+                {
+                    "source": "search = `${context} ${search}`",
+                    "target": "search = `${context} ${search}`"
+                },
+                {
+                    "source": "name = \"sourceLines\"",
+                    "target": "name = \"sourceLines\""
+                },
+                {
+                    "source": "link: \"http://www.w3.org/1999/xlink\"",
+                    "target": "link: \"http://www.w3.org/1999/xlink\""
+                },
+                {
+                    "source": "textContent = \"\"",
+                    "target": "textContent = \"\""
+                },
+                {
+                    "source": "name: \"drag\"",
+                    "target": "name: \"drag\""
+                },
+                {
+                    "source": "name: \"space\"",
+                    "target": "name: \"space\""
+                },
+                {
+                    "source": "name: \"handle\"",
+                    "target": "name: \"handle\""
+                },
+                {
+                    "source": "name: \"center\"",
+                    "target": "name: \"center\""
+                },
+                {
+                    "source": "name: \"x\"",
+                    "target": "name: \"x\""
+                },
+                {
+                    "source": "name: \"y\"",
+                    "target": "name: \"y\""
+                },
+                {
+                    "source": "name: \"xy\"",
+                    "target": "name: \"xy\""
+                },
+                {
+                    "source": "selection: \"move\"",
+                    "target": "selection: \"move\""
+                },
+                {
+                    "source": "name: \"mmng-embed\"",
+                    "target": "name: \"mmng-embed\""
+                },
+                {
+                    "source": "innerText = `File not found: ${path}`",
+                    "target": "innerText = `File not found: ${path}`"
+                },
+                {
+                    "source": "settings = \"markmap\"",
+                    "target": "settings = \"markmap\""
+                },
+                {
+                    "source": "name: \"Split direction\"",
+                    "target": "name: \"Split direction\""
+                },
+                {
+                    "source": "description: \"Direction to split the window when opening a mindmap\"",
+                    "target": "description: \"Direction to split the window when opening a mindmap\""
+                },
+                {
+                    "source": "name: \"Highlight inline mindmap\"",
+                    "target": "name: \"Highlight inline mindmap\""
+                },
+                {
+                    "source": "description: `Use a contrasting background ${color} for inline mindmaps`",
+                    "target": "description: `Use a contrasting background ${color} for inline mindmaps`"
+                },
+                {
+                    "source": "name: \"Use title as root node\"",
+                    "target": "name: \"Use title as root node\""
+                },
+                {
+                    "source": "description: \"When on, the root node of the mindmap will be the title of the document\"",
+                    "target": "description: \"When on, the root node of the mindmap will be the title of the document\""
+                },
+                {
+                    "source": "name: `${Color}ing approach`",
+                    "target": "name: `${Color}ing approach`"
+                },
+                {
+                    "source": "name: `Depth 1 ${color}`",
+                    "target": "name: `Depth 1 ${color}`"
+                },
+                {
+                    "source": "description: `${Color} for the first level of the mindmap`",
+                    "target": "description: `${Color} for the first level of the mindmap`"
+                },
+                {
+                    "source": "description: `${Color} for the second level of the mindmap`",
+                    "target": "description: `${Color} for the second level of the mindmap`"
+                },
+                {
+                    "source": "name: `Depth 3 ${color}`",
+                    "target": "name: `Depth 3 ${color}`"
+                },
+                {
+                    "source": "description: `${Color} for the third level of the mindmap`",
+                    "target": "description: `${Color} for the third level of the mindmap`"
+                },
+                {
+                    "source": "name: `Default ${color}`",
+                    "target": "name: `Default ${color}`"
+                },
+                {
+                    "source": "description: `${Color} for the fourth level and beyond`",
+                    "target": "description: `${Color} for the fourth level and beyond`"
+                },
+                {
+                    "source": "name: `${Color} freeze level`",
+                    "target": "name: `${Color} freeze level`"
+                },
+                {
+                    "source": "description: `All child branches will use the ${color} of their ancestor node beyond the freeze level`",
+                    "target": "description: `All child branches will use the ${color} of their ancestor node beyond the freeze level`"
+                },
+                {
+                    "source": "name: `Screenshot text ${color}`",
+                    "target": "name: `Screenshot text ${color}`"
+                },
+                {
+                    "source": "description: `Text ${color} for the screenshot. Toggle the switch on and off to disable/enable this ${color} on the screenshot`",
+                    "target": "description: `Text ${color} for the screenshot. Toggle the switch on and off to disable/enable this ${color} on the screenshot`"
+                },
+                {
+                    "source": "name: \"Screenshot background style\"",
+                    "target": "name: \"Screenshot background style\""
+                },
+                {
+                    "source": "description: `Select the background style for the screenshot, when using \"${Color}\" the ${color} picker value will be used`",
+                    "target": "description: `Select the background style for the screenshot, when using \"${Color}\" the ${color} picker value will be used`"
+                },
+                {
+                    "source": "name: \"Node Min Height\"",
+                    "target": "name: \"Node Min Height\""
+                },
+                {
+                    "source": "description: \"Minimum height for the mindmap nodes\"",
+                    "target": "description: \"Minimum height for the mindmap nodes\""
+                },
+                {
+                    "source": "name: \"Node Text Line Height\"",
+                    "target": "name: \"Node Text Line Height\""
+                },
+                {
+                    "source": "description: \"Line height for content in mindmap nodes\"",
+                    "target": "description: \"Line height for content in mindmap nodes\""
+                },
+                {
+                    "source": "name: \"Vertical Spacing\"",
+                    "target": "name: \"Vertical Spacing\""
+                },
+                {
+                    "source": "description: \"Vertical spacing of the mindmap nodes\"",
+                    "target": "description: \"Vertical spacing of the mindmap nodes\""
+                },
+                {
+                    "source": "name: \"Horizontal Spacing\"",
+                    "target": "name: \"Horizontal Spacing\""
+                },
+                {
+                    "source": "description: \"Horizontal spacing of the mindmap nodes\"",
+                    "target": "description: \"Horizontal spacing of the mindmap nodes\""
+                },
+                {
+                    "source": "name: \"Horizontal padding\"",
+                    "target": "name: \"Horizontal padding\""
+                },
+                {
+                    "source": "description: \"Leading space before the content of mindmap nodes\"",
+                    "target": "description: \"Leading space before the content of mindmap nodes\""
+                },
+                {
+                    "source": "name: \"Initial expand level\"",
+                    "target": "name: \"Initial expand level\""
+                },
+                {
+                    "source": "description: \"Sets the initial depth of the mindmap. 0 means all nodes are collapsed, 1 means only the root node is expanded, etc. To expand all nodes, set this to -1\"",
+                    "target": "description: \"Sets the initial depth of the mindmap. 0 means all nodes are collapsed, 1 means only the root node is expanded, etc. To expand all nodes, set this to -1\""
+                },
+                {
+                    "source": "name: \"Animation duration\"",
+                    "target": "name: \"Animation duration\""
+                },
+                {
+                    "source": "description: \"The animation duration when folding/unfolding a node\"",
+                    "target": "description: \"The animation duration when folding/unfolding a node\""
+                },
+                {
+                    "source": "name: \"Max width\"",
+                    "target": "name: \"Max width\""
+                },
+                {
+                    "source": "description: \"The max width of each node. 0 for no limit\"",
+                    "target": "description: \"The max width of each node. 0 for no limit\""
+                },
+                {
+                    "source": "name: \"\\\\u9AD8\\\\u4EAE\\\\u5185\\\\u8054\\\\u601D\\\\u7EF4\\\\u5BFC\\\\u56FE\"",
+                    "target": "name: \"\\\\u9AD8\\\\u4EAE\\\\u5185\\\\u8054\\\\u601D\\\\u7EF4\\\\u5BFC\\\\u56FE\""
+                },
+                {
+                    "source": "name: \"\\\\u6C34\\\\u5E73\\\\u95F4\\\\u8DDD\"",
+                    "target": "name: \"\\\\u6C34\\\\u5E73\\\\u95F4\\\\u8DDD\""
+                },
+                {
+                    "source": "name: \"\\\\u6C34\\\\u5E73\\\\u5185\\\\u8FB9\\\\u8DDD\"",
+                    "target": "name: \"\\\\u6C34\\\\u5E73\\\\u5185\\\\u8FB9\\\\u8DDD\""
+                },
+                {
+                    "source": "name: \"\\\\u9AD8\\\\u4EAE\\\\u5167\\\\u806F\\\\u601D\\\\u7DAD\\\\u5C0E\\\\u5716\"",
+                    "target": "name: \"\\\\u9AD8\\\\u4EAE\\\\u5167\\\\u806F\\\\u601D\\\\u7DAD\\\\u5C0E\\\\u5716\""
+                },
+                {
+                    "source": "name: \"\\\\u7BC0\\\\u9EDE\\\\u6700\\\\u5C0F\\\\u9AD8\\\\u5EA6\"",
+                    "target": "name: \"\\\\u7BC0\\\\u9EDE\\\\u6700\\\\u5C0F\\\\u9AD8\\\\u5EA6\""
+                },
+                {
+                    "source": "description: \"\\\\u601D\\\\u7DAD\\\\u5C0E\\\\u5716\\\\u7BC0\\\\u9EDE\\\\u7684\\\\u6700\\\\u5C0F\\\\u9AD8\\\\u5EA6\"",
+                    "target": "description: \"\\\\u601D\\\\u7DAD\\\\u5C0E\\\\u5716\\\\u7BC0\\\\u9EDE\\\\u7684\\\\u6700\\\\u5C0F\\\\u9AD8\\\\u5EA6\""
+                },
+                {
+                    "source": "name: \"\\\\u6C34\\\\u5E73\\\\u9593\\\\u8DDD\"",
+                    "target": "name: \"\\\\u6C34\\\\u5E73\\\\u9593\\\\u8DDD\""
+                },
+                {
+                    "source": "description: \"\\\\u601D\\\\u7DAD\\\\u5C0E\\\\u5716\\\\u7BC0\\\\u9EDE\\\\u4E4B\\\\u9593\\\\u7684\\\\u6C34\\\\u5E73\\\\u9593\\\\u8DDD\"",
+                    "target": "description: \"\\\\u601D\\\\u7DAD\\\\u5C0E\\\\u5716\\\\u7BC0\\\\u9EDE\\\\u4E4B\\\\u9593\\\\u7684\\\\u6C34\\\\u5E73\\\\u9593\\\\u8DDD\""
+                },
+                {
+                    "source": "name: \"\\\\u6C34\\\\u5E73\\\\u5167\\\\u908A\\\\u8DDD\"",
+                    "target": "name: \"\\\\u6C34\\\\u5E73\\\\u5167\\\\u908A\\\\u8DDD\""
+                },
+                {
+                    "source": "name : \"Mindmap\"",
+                    "target": "name : \"Mindmap\""
+                },
+                {
+                    "source": "text = ''",
+                    "target": "text = ''"
+                },
+                {
+                    "source": "name = 'yield'",
+                    "target": "name = 'yield'"
+                },
+                {
+                    "source": "text: 'Generator declarations are not allowed in legacy contexts'",
+                    "target": "text: 'Generator declarations are not allowed in legacy contexts'"
+                },
+                {
+                    "source": "name = 'YAMLException'",
+                    "target": "name = 'YAMLException'"
+                },
+                {
+                    "source": "name = \"ParseError\"",
+                    "target": "name = \"ParseError\""
+                },
+                {
+                    "source": "description: \"Render math in display mode, which puts the math in \"",
+                    "target": "description: \"Render math in display mode, which puts the math in \""
+                },
+                {
+                    "source": "description: \"Determines the markup language of the output.\"",
+                    "target": "description: \"Determines the markup language of the output.\""
+                },
+                {
+                    "source": "description: \"Render display math in leqno style (left-justified tags).\"",
+                    "target": "description: \"Render display math in leqno style (left-justified tags).\""
+                },
+                {
+                    "source": "description: \"Render display math flush left.\"",
+                    "target": "description: \"Render display math flush left.\""
+                },
+                {
+                    "source": "description: \"Specifies a minimum thickness, in ems, for fraction lines,\"",
+                    "target": "description: \"Specifies a minimum thickness, in ems, for fraction lines,\""
+                },
+                {
+                    "source": "description: \"Turn on strict / LaTeX faithfulness mode, which throws an \"",
+                    "target": "description: \"Turn on strict / LaTeX faithfulness mode, which throws an \""
+                },
+                {
+                    "source": "description: \"If non-zero, all user-specified sizes, e.g. in \"",
+                    "target": "description: \"If non-zero, all user-specified sizes, e.g. in \""
+                },
+                {
+                    "source": "description: \"Limit the number of macro expansions to the specified \"",
+                    "target": "description: \"Limit the number of macro expansions to the specified \""
+                },
+                {
+                    "source": "name: \"cjk\"",
+                    "target": "name: \"cjk\""
+                },
+                {
+                    "source": "text = \"text\"",
+                    "target": "text = \"text\""
+                },
+                {
+                    "source": "text: \" \"",
+                    "target": "text: \" \""
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "text = \"0pt\"",
+                    "target": "text = \"0pt\""
+                },
+                {
+                    "source": "text: \"---\"",
+                    "target": "text: \"---\""
+                },
+                {
+                    "source": "text: \"--\"",
+                    "target": "text: \"--\""
+                },
+                {
+                    "source": "name: 'Plain text'",
+                    "target": "name: 'Plain text'"
+                },
+                {
+                    "source": "name: '1C:Enterprise'",
+                    "target": "name: '1C:Enterprise'"
+                },
+                {
+                    "source": "name: 'AppleScript'",
+                    "target": "name: 'AppleScript'"
+                },
+                {
+                    "source": "name: 'ARM Assembly'",
+                    "target": "name: 'ARM Assembly'"
+                },
+                {
+                    "source": "name: 'AsciiDoc'",
+                    "target": "name: 'AsciiDoc'"
+                },
+                {
+                    "source": "name: 'AutoHotkey'",
+                    "target": "name: 'AutoHotkey'"
+                },
+                {
+                    "source": "name: 'AutoIt'",
+                    "target": "name: 'AutoIt'"
+                },
+                {
+                    "source": "name: 'AVR Assembly'",
+                    "target": "name: 'AVR Assembly'"
+                },
+                {
+                    "source": "name: 'Awk'",
+                    "target": "name: 'Awk'"
+                },
+                {
+                    "source": "name: 'X++'",
+                    "target": "name: 'X++'"
+                },
+                {
+                    "source": "name: 'Backus–Naur Form'",
+                    "target": "name: 'Backus–Naur Form'"
+                },
+                {
+                    "source": "name: 'Brainfuck'",
+                    "target": "name: 'Brainfuck'"
+                },
+                {
+                    "source": "name: \"C\"",
+                    "target": "name: \"C\""
+                },
+                {
+                    "source": "name: 'Clojure REPL'",
+                    "target": "name: 'Clojure REPL'"
+                },
+                {
+                    "source": "name: 'Clojure'",
+                    "target": "name: 'Clojure'"
+                },
+                {
+                    "source": "name: 'CMake'",
+                    "target": "name: 'CMake'"
+                },
+                {
+                    "source": "name: 'C++'",
+                    "target": "name: 'C++'"
+                },
+                {
+                    "source": "name: 'crmsh'",
+                    "target": "name: 'crmsh'"
+                },
+                {
+                    "source": "name: 'Crystal'",
+                    "target": "name: 'Crystal'"
+                },
+                {
+                    "source": "name: 'C#'",
+                    "target": "name: 'C#'"
+                },
+                {
+                    "source": "name: 'CSS'",
+                    "target": "name: 'CSS'"
+                },
+                {
+                    "source": "name: 'D'",
+                    "target": "name: 'D'"
+                },
+                {
+                    "source": "name: 'Dart'",
+                    "target": "name: 'Dart'"
+                },
+                {
+                    "source": "name: 'Diff'",
+                    "target": "name: 'Diff'"
+                },
+                {
+                    "source": "name: 'Django'",
+                    "target": "name: 'Django'"
+                },
+                {
+                    "source": "name: 'Device Tree'",
+                    "target": "name: 'Device Tree'"
+                },
+                {
+                    "source": "name: 'Dust'",
+                    "target": "name: 'Dust'"
+                },
+                {
+                    "source": "name: 'Extended Backus-Naur Form'",
+                    "target": "name: 'Extended Backus-Naur Form'"
+                },
+                {
+                    "source": "name: 'Elixir'",
+                    "target": "name: 'Elixir'"
+                },
+                {
+                    "source": "name: 'Elm'",
+                    "target": "name: 'Elm'"
+                },
+                {
+                    "source": "name: 'ERB'",
+                    "target": "name: 'ERB'"
+                },
+                {
+                    "source": "name: 'Erlang REPL'",
+                    "target": "name: 'Erlang REPL'"
+                },
+                {
+                    "source": "name: 'Erlang'",
+                    "target": "name: 'Erlang'"
+                },
+                {
+                    "source": "name: 'FIX'",
+                    "target": "name: 'FIX'"
+                },
+                {
+                    "source": "name: 'GAMS'",
+                    "target": "name: 'GAMS'"
+                },
+                {
+                    "source": "name: 'GAUSS'",
+                    "target": "name: 'GAUSS'"
+                },
+                {
+                    "source": "name: 'G-code (ISO 6983)'",
+                    "target": "name: 'G-code (ISO 6983)'"
+                },
+                {
+                    "source": "name: 'Gherkin'",
+                    "target": "name: 'Gherkin'"
+                },
+                {
+                    "source": "name: 'GLSL'",
+                    "target": "name: 'GLSL'"
+                },
+                {
+                    "source": "name: \"GraphQL\"",
+                    "target": "name: \"GraphQL\""
+                },
+                {
+                    "source": "name: 'HAML'",
+                    "target": "name: 'HAML'"
+                },
+                {
+                    "source": "name: 'Handlebars'",
+                    "target": "name: 'Handlebars'"
+                },
+                {
+                    "source": "name: 'Haskell'",
+                    "target": "name: 'Haskell'"
+                },
+                {
+                    "source": "name: 'Haxe'",
+                    "target": "name: 'Haxe'"
+                },
+                {
+                    "source": "name: 'HSP'",
+                    "target": "name: 'HSP'"
+                },
+                {
+                    "source": "name: 'HTTP'",
+                    "target": "name: 'HTTP'"
+                },
+                {
+                    "source": "name: 'Hy'",
+                    "target": "name: 'Hy'"
+                },
+                {
+                    "source": "name: 'Inform 7'",
+                    "target": "name: 'Inform 7'"
+                },
+                {
+                    "source": "name: 'TOML, also INI'",
+                    "target": "name: 'TOML, also INI'"
+                },
+                {
+                    "source": "name: 'IRPF90'",
+                    "target": "name: 'IRPF90'"
+                },
+                {
+                    "source": "name: 'Java'",
+                    "target": "name: 'Java'"
+                },
+                {
+                    "source": "name: 'JBoss CLI'",
+                    "target": "name: 'JBoss CLI'"
+                },
+                {
+                    "source": "name: 'Julia REPL'",
+                    "target": "name: 'Julia REPL'"
+                },
+                {
+                    "source": "name = 'Julia'",
+                    "target": "name = 'Julia'"
+                },
+                {
+                    "source": "name: 'Kotlin'",
+                    "target": "name: 'Kotlin'"
+                },
+                {
+                    "source": "name: 'Lasso'",
+                    "target": "name: 'Lasso'"
+                },
+                {
+                    "source": "name: 'LaTeX'",
+                    "target": "name: 'LaTeX'"
+                },
+                {
+                    "source": "name: 'LDIF'",
+                    "target": "name: 'LDIF'"
+                },
+                {
+                    "source": "name: 'Leaf'",
+                    "target": "name: 'Leaf'"
+                },
+                {
+                    "source": "name: 'Less'",
+                    "target": "name: 'Less'"
+                },
+                {
+                    "source": "name: 'quote'",
+                    "target": "name: 'quote'"
+                },
+                {
+                    "source": "name: 'Lisp'",
+                    "target": "name: 'Lisp'"
+                },
+                {
+                    "source": "name: 'LiveCode'",
+                    "target": "name: 'LiveCode'"
+                },
+                {
+                    "source": "name: 'LLVM IR'",
+                    "target": "name: 'LLVM IR'"
+                },
+                {
+                    "source": "name: 'LSL (Linden Scripting Language)'",
+                    "target": "name: 'LSL (Linden Scripting Language)'"
+                },
+                {
+                    "source": "name: 'Lua'",
+                    "target": "name: 'Lua'"
+                },
+                {
+                    "source": "name: 'Makefile'",
+                    "target": "name: 'Makefile'"
+                },
+                {
+                    "source": "name: 'Markdown'",
+                    "target": "name: 'Markdown'"
+                },
+                {
+                    "source": "name: 'Matlab'",
+                    "target": "name: 'Matlab'"
+                },
+                {
+                    "source": "name: 'Maxima'",
+                    "target": "name: 'Maxima'"
+                },
+                {
+                    "source": "name: 'MEL'",
+                    "target": "name: 'MEL'"
+                },
+                {
+                    "source": "name: 'Mercury'",
+                    "target": "name: 'Mercury'"
+                },
+                {
+                    "source": "name: 'MIPS Assembly'",
+                    "target": "name: 'MIPS Assembly'"
+                },
+                {
+                    "source": "name: 'Mizar'",
+                    "target": "name: 'Mizar'"
+                },
+                {
+                    "source": "name: 'Mojolicious'",
+                    "target": "name: 'Mojolicious'"
+                },
+                {
+                    "source": "name: 'MoonScript'",
+                    "target": "name: 'MoonScript'"
+                },
+                {
+                    "source": "name: 'Node REPL'",
+                    "target": "name: 'Node REPL'"
+                },
+                {
+                    "source": "name: 'OCaml'",
+                    "target": "name: 'OCaml'"
+                },
+                {
+                    "source": "name: 'OpenSCAD'",
+                    "target": "name: 'OpenSCAD'"
+                },
+                {
+                    "source": "name: 'Oxygene'",
+                    "target": "name: 'Oxygene'"
+                },
+                {
+                    "source": "name: 'Parser3'",
+                    "target": "name: 'Parser3'"
+                },
+                {
+                    "source": "name: 'Perl'",
+                    "target": "name: 'Perl'"
+                },
+                {
+                    "source": "name: 'Packet Filter config'",
+                    "target": "name: 'Packet Filter config'"
+                },
+                {
+                    "source": "name: 'PostgreSQL'",
+                    "target": "name: 'PostgreSQL'"
+                },
+                {
+                    "source": "name: 'Pony'",
+                    "target": "name: 'Pony'"
+                },
+                {
+                    "source": "name: 'PowerShell'",
+                    "target": "name: 'PowerShell'"
+                },
+                {
+                    "source": "name: 'Python profiler'",
+                    "target": "name: 'Python profiler'"
+                },
+                {
+                    "source": "name: 'Prolog'",
+                    "target": "name: 'Prolog'"
+                },
+                {
+                    "source": "name: '.properties'",
+                    "target": "name: '.properties'"
+                },
+                {
+                    "source": "name: 'Puppet'",
+                    "target": "name: 'Puppet'"
+                },
+                {
+                    "source": "name: 'PureBASIC'",
+                    "target": "name: 'PureBASIC'"
+                },
+                {
+                    "source": "name: 'Python'",
+                    "target": "name: 'Python'"
+                },
+                {
+                    "source": "name: 'Q'",
+                    "target": "name: 'Q'"
+                },
+                {
+                    "source": "name: 'QML'",
+                    "target": "name: 'QML'"
+                },
+                {
+                    "source": "name: 'R'",
+                    "target": "name: 'R'"
+                },
+                {
+                    "source": "name: 'RenderMan RIB'",
+                    "target": "name: 'RenderMan RIB'"
+                },
+                {
+                    "source": "name: 'Roboconf'",
+                    "target": "name: 'Roboconf'"
+                },
+                {
+                    "source": "name: 'MikroTik RouterOS script'",
+                    "target": "name: 'MikroTik RouterOS script'"
+                },
+                {
+                    "source": "name: 'Oracle Rules Language'",
+                    "target": "name: 'Oracle Rules Language'"
+                },
+                {
+                    "source": "name: 'Scala'",
+                    "target": "name: 'Scala'"
+                },
+                {
+                    "source": "name: 'Scheme'",
+                    "target": "name: 'Scheme'"
+                },
+                {
+                    "source": "name: 'Scilab'",
+                    "target": "name: 'Scilab'"
+                },
+                {
+                    "source": "name: 'SCSS'",
+                    "target": "name: 'SCSS'"
+                },
+                {
+                    "source": "name: 'Shell Session'",
+                    "target": "name: 'Shell Session'"
+                },
+                {
+                    "source": "name: 'Smali'",
+                    "target": "name: 'Smali'"
+                },
+                {
+                    "source": "name: 'Smalltalk'",
+                    "target": "name: 'Smalltalk'"
+                },
+                {
+                    "source": "name: 'SML (Standard ML)'",
+                    "target": "name: 'SML (Standard ML)'"
+                },
+                {
+                    "source": "name: 'SQF'",
+                    "target": "name: 'SQF'"
+                },
+                {
+                    "source": "name: 'Stan'",
+                    "target": "name: 'Stan'"
+                },
+                {
+                    "source": "name: 'Stata'",
+                    "target": "name: 'Stata'"
+                },
+                {
+                    "source": "name: 'Stylus'",
+                    "target": "name: 'Stylus'"
+                },
+                {
+                    "source": "name: 'SubUnit'",
+                    "target": "name: 'SubUnit'"
+                },
+                {
+                    "source": "name: 'Swift'",
+                    "target": "name: 'Swift'"
+                },
+                {
+                    "source": "name: 'Tagger Script'",
+                    "target": "name: 'Tagger Script'"
+                },
+                {
+                    "source": "name: 'Test Anything Protocol'",
+                    "target": "name: 'Test Anything Protocol'"
+                },
+                {
+                    "source": "name: 'Vala'",
+                    "target": "name: 'Vala'"
+                },
+                {
+                    "source": "name: 'Visual Basic .NET'",
+                    "target": "name: 'Visual Basic .NET'"
+                },
+                {
+                    "source": "name: 'VBScript in HTML'",
+                    "target": "name: 'VBScript in HTML'"
+                },
+                {
+                    "source": "name: 'Vim Script'",
+                    "target": "name: 'Vim Script'"
+                },
+                {
+                    "source": "name: \"Wren\"",
+                    "target": "name: \"Wren\""
+                },
+                {
+                    "source": "name: 'Intel x86 Assembly'",
+                    "target": "name: 'Intel x86 Assembly'"
+                },
+                {
+                    "source": "name: 'HTML, XML'",
+                    "target": "name: 'HTML, XML'"
+                },
+                {
+                    "source": "name: 'style'",
+                    "target": "name: 'style'"
+                },
+                {
+                    "source": "name: 'script'",
+                    "target": "name: 'script'"
+                },
+                {
+                    "source": "name: 'YAML'",
+                    "target": "name: 'YAML'"
+                },
+                {
+                    "source": "name: 'Zephir'",
+                    "target": "name: 'Zephir'"
+                },
+                {
+                    "source": "name = `${prefix}${i}`",
+                    "target": "name = `${prefix}${i}`"
+                }
+            ]
+        }
+    }
+}

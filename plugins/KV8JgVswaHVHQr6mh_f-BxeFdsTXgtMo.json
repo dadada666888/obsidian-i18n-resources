@@ -1,0 +1,742 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-banners",
+        "version": "1.0.0",
+        "title": "Banners",
+        "description": "Banners Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.3.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Choose whether to display the banner in the internal embed. This is the embed that appears when you write ",
+                    "target": "选择是否在内部嵌入中显示横幅。这是当你写入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " in a file",
+                    "target": "时出现的嵌入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Choose whether to display the banner in the page preview embed. This is the embed that appears from the ",
+                    "target": "选择是否在页面预览嵌入中显示横幅。这是从"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "core plugin",
+                    "target": "核心插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Set a customizable frontmatter field to use for banner data.",
+                    "target": "设置一个可自定义的前置元数据字段用于横幅数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "For example, the default value ",
+                    "target": "例如，默认值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " will use the fields ",
+                    "target": "将使用字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", ",
+                    "target": "、"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", and so on...",
+                    "target": "等……"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Set a modifier key that must be used to drag a banner.",
+                    "target": "设置拖动横幅时必须使用的修饰键。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "For example, setting it to ",
+                    "target": "例如，将其设置为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " means that you must hold down Shift as you drag the banner to move it. This can help to avoid accidental banner shifts.",
+                    "target": "意味着拖动横幅时必须按住 Shift 键才能移动它。这有助于避免意外移动横幅。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Align the icon horizontally.",
+                    "target": "水平对齐图标。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If set to ",
+                    "target": "如果设置为"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", you can set an offset, relative to the left side of the note. This can be any valid ",
+                    "target": "，您可以设置相对于笔记左侧的偏移量。这可以是任何有效的"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", such as ",
+                    "target": "，例如"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Align the icon vertically, relative to a banner (if any).",
+                    "target": "垂直对齐图标，相对于横幅（如果有）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": ", you can set an offset, relative to the center of a banner's lower edge. This follows the same format as the setting above.",
+                    "target": "，您可以设置相对于横幅下边缘中心的偏移量。其格式与上述设置相同。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Twitter's emoji have better support here. ",
+                    "target": "Twitter 的 emoji 在此处支持更好。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "This is only applied in the Icon modal and the banner icon in the preview view",
+                    "target": "此设置仅应用于图标弹窗和预览视图中的横幅图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Show up to this many suggestions when searching through local images.",
+                    "target": "搜索本地图片时最多显示这么多建议。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Using a high number while ",
+                    "target": "在"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "is on can lead to some slowdowns",
+                    "target": "开启时使用较高的数值可能会导致一些卡顿"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Select a folder to exclusively search for banner files in.",
+                    "target": "选择一个文件夹以专门搜索横幅文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "If empty, it will search the entire vault for image files",
+                    "target": "如果为空，将搜索整个库中的图片文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Allow dragging the banner on mobile devices.",
+                    "target": "允许在移动设备上拖动横幅。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "App reload might be necessary",
+                    "target": "可能需要重新加载应用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "ERROR! Make sure that you set the ",
+                    "target": "错误！请确保在设置中将"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": " to a valid folder in the settings.",
+                    "target": "设置为有效的文件夹。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "code",
+                    "target": "code"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Loading Banners...",
+                    "target": "正在加载横幅……"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Banners...",
+                    "target": "正在卸载横幅……"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set how big the banner should be in pixels",
+                    "target": "设置横幅的高度（以像素为单位）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set a style for all of your banners",
+                    "target": "为所有横幅设置样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the banner size inside the internal embed",
+                    "target": "设置内部嵌入中的横幅大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Set the banner size inside the page preview embed",
+                    "target": "设置页面预览嵌入中的横幅大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enabling this will display a preview of the images suggested",
+                    "target": "启用此选项将显示建议图片的预览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Banner height",
+                    "target": "横幅高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Banner style",
+                    "target": "横幅样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show banner in internal embed",
+                    "target": "在内部嵌入中显示横幅"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Internal embed banner height",
+                    "target": "内部嵌入横幅高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show banner in preview embed",
+                    "target": "在预览嵌入中显示横幅"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preview embed banner height",
+                    "target": "预览嵌入横幅高度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Frontmatter field name",
+                    "target": "前置元数据字段名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Banner drag modifier key",
+                    "target": "横幅拖动修饰键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Horizontal alignment",
+                    "target": "水平对齐"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vertical alignment",
+                    "target": "垂直对齐"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use Twemoji",
+                    "target": "使用 Twemoji"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show preview images",
+                    "target": "显示预览图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Suggestions limit",
+                    "target": "建议数量限制"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Banners folder",
+                    "target": "横幅文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Allow mobile drag",
+                    "target": "允许移动端拖动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Pick an emoji to use as an icon",
+                    "target": "选择一个 emoji 作为图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Pick an image to use as a banner",
+                    "target": "选择一张图片作为横幅"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Pasted a new banner!",
+                    "target": "已粘贴新横幅！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Your clipboard didn't had a valid URL! Please try again (and check the console if you wanna debug).",
+                    "target": "您的剪贴板中没有有效的 URL！请重试（如果您想调试，请查看控制台）。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "setting-item setting-item-heading banner-setting-header",
+                    "target": "setting-item setting-item-heading banner-setting-header"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add/Change banner with local image",
+                    "target": "使用本地图片添加/更改横幅"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add/Change emoji icon",
+                    "target": "添加/更改 emoji 图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Paste banner from clipboard",
+                    "target": "从剪贴板粘贴横幅"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Lock/Unlock banner position",
+                    "target": "锁定/解锁横幅位置"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove banner",
+                    "target": "移除横幅"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove icon",
+                    "target": "移除图标"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Page Preview ",
+                    "target": "页面预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "⇧ Shift",
+                    "target": "⇧ Shift"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Custom",
+                    "target": "自定义"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "CSS length value",
+                    "target": "CSS 长度值"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "calc(1em + 10px)",
+                    "target": "calc(1em + 10px)"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "NOTE: ",
+                    "target": "注意："
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Show preview images ",
+                    "target": "显示预览图片"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Banners folder",
+                    "target": "横幅文件夹"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setPlaceholder(\"Pick an emoji to use as an icon\")",
+                    "target": "setPlaceholder(\"Pick an emoji to use as an icon\")"
+                },
+                {
+                    "source": "setName(\"Banner height\")",
+                    "target": "setName(\"Banner height\")"
+                },
+                {
+                    "source": "setDesc(\"Set how big the banner should be in pixels\")",
+                    "target": "setDesc(\"Set how big the banner should be in pixels\")"
+                },
+                {
+                    "source": "setName(\"Banner style\")",
+                    "target": "setName(\"Banner style\")"
+                },
+                {
+                    "source": "setDesc(\"Set a style for all of your banners\")",
+                    "target": "setDesc(\"Set a style for all of your banners\")"
+                },
+                {
+                    "source": "setName(\"Show banner in internal embed\")",
+                    "target": "setName(\"Show banner in internal embed\")"
+                },
+                {
+                    "source": "appendText(\"Choose whether to display the banner in the internal embed. This is the embed that appears when you write \")",
+                    "target": "appendText(\"Choose whether to display the banner in the internal embed. This is the embed that appears when you write \")"
+                },
+                {
+                    "source": "appendText(\" in a file\")",
+                    "target": "appendText(\" in a file\")"
+                },
+                {
+                    "source": "setName(\"Internal embed banner height\")",
+                    "target": "setName(\"Internal embed banner height\")"
+                },
+                {
+                    "source": "setDesc(\"Set the banner size inside the internal embed\")",
+                    "target": "setDesc(\"Set the banner size inside the internal embed\")"
+                },
+                {
+                    "source": "setName(\"Show banner in preview embed\")",
+                    "target": "setName(\"Show banner in preview embed\")"
+                },
+                {
+                    "source": "appendText(\"Choose whether to display the banner in the page preview embed. This is the embed that appears from the \")",
+                    "target": "appendText(\"Choose whether to display the banner in the page preview embed. This is the embed that appears from the \")"
+                },
+                {
+                    "source": "appendText(\"core plugin\")",
+                    "target": "appendText(\"core plugin\")"
+                },
+                {
+                    "source": "setName(\"Preview embed banner height\")",
+                    "target": "setName(\"Preview embed banner height\")"
+                },
+                {
+                    "source": "setDesc(\"Set the banner size inside the page preview embed\")",
+                    "target": "setDesc(\"Set the banner size inside the page preview embed\")"
+                },
+                {
+                    "source": "setName(\"Frontmatter field name\")",
+                    "target": "setName(\"Frontmatter field name\")"
+                },
+                {
+                    "source": "appendText(\"Set a customizable frontmatter field to use for banner data.\")",
+                    "target": "appendText(\"Set a customizable frontmatter field to use for banner data.\")"
+                },
+                {
+                    "source": "appendText(\"For example, the default value \")",
+                    "target": "appendText(\"For example, the default value \")"
+                },
+                {
+                    "source": "appendText(\" will use the fields \")",
+                    "target": "appendText(\" will use the fields \")"
+                },
+                {
+                    "source": "appendText(\", \")",
+                    "target": "appendText(\", \")"
+                },
+                {
+                    "source": "appendText(\", and so on...\")",
+                    "target": "appendText(\", and so on...\")"
+                },
+                {
+                    "source": "setName(\"Banner drag modifier key\")",
+                    "target": "setName(\"Banner drag modifier key\")"
+                },
+                {
+                    "source": "appendText(\"Set a modifier key that must be used to drag a banner.\")",
+                    "target": "appendText(\"Set a modifier key that must be used to drag a banner.\")"
+                },
+                {
+                    "source": "appendText(\"For example, setting it to \")",
+                    "target": "appendText(\"For example, setting it to \")"
+                },
+                {
+                    "source": "appendText(\" means that you must hold down Shift as you drag the banner to move it. This can help to avoid accidental banner shifts.\")",
+                    "target": "appendText(\" means that you must hold down Shift as you drag the banner to move it. This can help to avoid accidental banner shifts.\")"
+                },
+                {
+                    "source": "setName(\"Horizontal alignment\")",
+                    "target": "setName(\"Horizontal alignment\")"
+                },
+                {
+                    "source": "appendText(\"Align the icon horizontally.\")",
+                    "target": "appendText(\"Align the icon horizontally.\")"
+                },
+                {
+                    "source": "appendText(\"If set to \")",
+                    "target": "appendText(\"If set to \")"
+                },
+                {
+                    "source": "appendText(\", you can set an offset, relative to the left side of the note. This can be any valid \")",
+                    "target": "appendText(\", you can set an offset, relative to the left side of the note. This can be any valid \")"
+                },
+                {
+                    "source": "appendText(\", such as \")",
+                    "target": "appendText(\", such as \")"
+                },
+                {
+                    "source": "setName(\"Vertical alignment\")",
+                    "target": "setName(\"Vertical alignment\")"
+                },
+                {
+                    "source": "appendText(\"Align the icon vertically, relative to a banner (if any).\")",
+                    "target": "appendText(\"Align the icon vertically, relative to a banner (if any).\")"
+                },
+                {
+                    "source": "appendText(\", you can set an offset, relative to the center of a banner's lower edge. This follows the same format as the setting above.\")",
+                    "target": "appendText(\", you can set an offset, relative to the center of a banner's lower edge. This follows the same format as the setting above.\")"
+                },
+                {
+                    "source": "setName(\"Use Twemoji\")",
+                    "target": "setName(\"Use Twemoji\")"
+                },
+                {
+                    "source": "appendText(\"Twitter's emoji have better support here. \")",
+                    "target": "appendText(\"Twitter's emoji have better support here. \")"
+                },
+                {
+                    "source": "appendText(\"This is only applied in the Icon modal and the banner icon in the preview view\")",
+                    "target": "appendText(\"This is only applied in the Icon modal and the banner icon in the preview view\")"
+                },
+                {
+                    "source": "setName(\"Show preview images\")",
+                    "target": "setName(\"Show preview images\")"
+                },
+                {
+                    "source": "setDesc(\"Enabling this will display a preview of the images suggested\")",
+                    "target": "setDesc(\"Enabling this will display a preview of the images suggested\")"
+                },
+                {
+                    "source": "setName(\"Suggestions limit\")",
+                    "target": "setName(\"Suggestions limit\")"
+                },
+                {
+                    "source": "appendText(\"Show up to this many suggestions when searching through local images.\")",
+                    "target": "appendText(\"Show up to this many suggestions when searching through local images.\")"
+                },
+                {
+                    "source": "appendText(\"Using a high number while \")",
+                    "target": "appendText(\"Using a high number while \")"
+                },
+                {
+                    "source": "appendText(\"is on can lead to some slowdowns\")",
+                    "target": "appendText(\"is on can lead to some slowdowns\")"
+                },
+                {
+                    "source": "setName(\"Banners folder\")",
+                    "target": "setName(\"Banners folder\")"
+                },
+                {
+                    "source": "appendText(\"Select a folder to exclusively search for banner files in.\")",
+                    "target": "appendText(\"Select a folder to exclusively search for banner files in.\")"
+                },
+                {
+                    "source": "appendText(\"If empty, it will search the entire vault for image files\")",
+                    "target": "appendText(\"If empty, it will search the entire vault for image files\")"
+                },
+                {
+                    "source": "setName(\"Allow mobile drag\")",
+                    "target": "setName(\"Allow mobile drag\")"
+                },
+                {
+                    "source": "appendText(\"Allow dragging the banner on mobile devices.\")",
+                    "target": "appendText(\"Allow dragging the banner on mobile devices.\")"
+                },
+                {
+                    "source": "appendText(\"App reload might be necessary\")",
+                    "target": "appendText(\"App reload might be necessary\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Pick an image to use as a banner\")",
+                    "target": "setPlaceholder(\"Pick an image to use as a banner\")"
+                },
+                {
+                    "source": "appendText(\"ERROR! Make sure that you set the \")",
+                    "target": "appendText(\"ERROR! Make sure that you set the \")"
+                },
+                {
+                    "source": "appendText(\" to a valid folder in the settings.\")",
+                    "target": "appendText(\" to a valid folder in the settings.\")"
+                },
+                {
+                    "source": "log(\"Loading Banners...\")",
+                    "target": "log(\"Loading Banners...\")"
+                },
+                {
+                    "source": "log(\"Unloading Banners...\")",
+                    "target": "log(\"Unloading Banners...\")"
+                },
+                {
+                    "source": "Notice(\"Pasted a new banner!\")",
+                    "target": "Notice(\"Pasted a new banner!\")"
+                },
+                {
+                    "source": "Notice(\"Your clipboard didn't had a valid URL! Please try again (and check the console if you wanna debug).\")",
+                    "target": "Notice(\"Your clipboard didn't had a valid URL! Please try again (and check the console if you wanna debug).\")"
+                },
+                {
+                    "source": "Notice(`Unlocked banner position for ${u.name}!`)",
+                    "target": "Notice(`Unlocked banner position for ${u.name}!`)"
+                },
+                {
+                    "source": "Notice(`Locked banner position for ${u.name}!`)",
+                    "target": "Notice(`Locked banner position for ${u.name}!`)"
+                },
+                {
+                    "source": "Notice(`Removed banner for ${u.name}!`)",
+                    "target": "Notice(`Removed banner for ${u.name}!`)"
+                },
+                {
+                    "source": "Notice(`Removed banner icon for ${u.name}!`)",
+                    "target": "Notice(`Removed banner icon for ${u.name}!`)"
+                },
+                {
+                    "source": "text:\"Page Preview \"",
+                    "target": "text:\"Page Preview \""
+                },
+                {
+                    "source": "text:\"CSS length value\"",
+                    "target": "text:\"CSS length value\""
+                },
+                {
+                    "source": "text:\"calc(1em + 10px)\"",
+                    "target": "text:\"calc(1em + 10px)\""
+                },
+                {
+                    "source": "text:\"NOTE: \"",
+                    "target": "text:\"NOTE: \""
+                },
+                {
+                    "source": "text:\"Show preview images \"",
+                    "target": "text:\"Show preview images \""
+                },
+                {
+                    "source": "text:\"Banners folder\"",
+                    "target": "text:\"Banners folder\""
+                },
+                {
+                    "source": "name:\"Add/Change banner with local image\"",
+                    "target": "name:\"Add/Change banner with local image\""
+                },
+                {
+                    "source": "name:\"Add/Change emoji icon\"",
+                    "target": "name:\"Add/Change emoji icon\""
+                },
+                {
+                    "source": "name:\"Paste banner from clipboard\"",
+                    "target": "name:\"Paste banner from clipboard\""
+                },
+                {
+                    "source": "name:\"Lock/Unlock banner position\"",
+                    "target": "name:\"Lock/Unlock banner position\""
+                },
+                {
+                    "source": "name:\"Remove banner\"",
+                    "target": "name:\"Remove banner\""
+                },
+                {
+                    "source": "name:\"Remove icon\"",
+                    "target": "name:\"Remove icon\""
+                }
+            ]
+        }
+    }
+}
